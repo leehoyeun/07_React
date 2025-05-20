@@ -11,7 +11,7 @@ createRoot(document.getElementById("root")).render(
 
   // -> 실사용(프로덕션)에서는 아무런 영향을 주지 않음.
   // 개발하는데 콘솔이 너무 많이찍혀서 짜증나면 StrictMode를 지우면 됨.
-  <StrictMode>
-    <App />
-  </StrictMode>
+  // <StrictMode>
+  <App />
+  // </StrictMode>
 );
